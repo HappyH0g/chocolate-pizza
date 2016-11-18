@@ -1,0 +1,54 @@
+/* Styles for chocolate pie */
+* {
+  box-sizing:
+}
+
+body {
+  font: Helvetica, Arial, serif;
+}
+
+main {
+  width: 901px;
+  margin: 0 auto;
+}
+
+header {
+  position:relative;
+}
+
+#printIcon {
+  display: inline;
+  width: 200px;
+}
+
+#printIcon img, #printIcon h4, #printIcon p {
+  /*display: inline;*/
+  float: left;
+}
+
+#socialNav {
+  display: inline;
+  width: 200px;
+}
+
+#socialNav nav li {
+  float: right;
+}
+
+hr {
+  background: gray;
+  padding: 2px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%
+}
+
+
+#content {
+  /*width: 300px;*/
+}
+
+#content p {
+  /*width: 300px;*/
+  float: left;
+}
