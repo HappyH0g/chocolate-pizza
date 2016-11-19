@@ -13,26 +13,32 @@ main {
 }
 
 header {
-  position:relative;
+  position: relative;
 }
 
 #printIcon {
   display: inline;
   width: 200px;
+  padding: 15px;
 }
 
-#printIcon img, #printIcon h4, #printIcon p {
+#printIcon img, #printIcon h4 {
   /*display: inline;*/
+  float: left;
+}
+
+#printIcon p {
+  font-size: 8pt;
   float: left;
 }
 
 #socialNav {
   display: inline;
-  width: 200px;
+  width: 250px;
+  float: right;
 }
 
 #socialNav nav li {
-  float: right;
 }
 
 hr {
@@ -51,4 +57,29 @@ hr {
 #content p {
   /*width: 300px;*/
   float: left;
+  text-indent: 25px;
+}
+
+#profile {
+  border: dashed lime;
+  padding: 10px;
+  width: 100%; 
+}
+#profile img {
+  float: left;
+}
+
+#profile p, #profile h6 {
+  width: 300px;
+}
+.clearfix {
+  content: '';
+  clear: both;
+  display: table;
+}
+button {
+  float: right;
+  display: block;
+  padding: 15px;
+  width: 300px;
 }
